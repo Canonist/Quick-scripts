@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Directory -Recurse | Select-Object FullName | Out-File -FilePath "subfolders.txt"
